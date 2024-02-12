@@ -1,0 +1,82 @@
+body {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.teclado .ecra {
+  background-color: black;
+  color: red;
+  font-size: 50px;
+  font-weight: bold;
+  min-height: 73px;
+}
+
+.ecra {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-css {
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.432);
+  padding: 15px 55px;
+  margin-top: 40px;
+  width: fit-content;
+  text-align: center;
+}
+
+button {
+  width: 75px;
+  height: 75px;
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.teclado .linha {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  width: 420px;
+}
+
+.teclado button.limpar {
+  width: 100px;
+}
+
+.teclado {
+  display: inline-block;
+  padding: 20px;
+}
+
+#permanentC {
+  color: red;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.ecra {
+  display: flex;
+  align-items: center;
+}
+
+.ecra span {
+  margin-right: 5px; /* Adjust this margin as needed for spacing */
+}
+
+.c-symbol {
+  font-weight: bold;
+}

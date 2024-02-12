@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Calculadora Temperatura</h1>
+    <div class="teclado div-css">
+      <div class="ecra" id="ecra">
+        <span id="temperatureValue"></span>
+        <span>C</span>
+      </div>
+      <br />
+      <div class="linha">
+        <button onclick="teclar(7)">7</button>
+        <button onclick="teclar(8)">8</button>
+        <button onclick="teclar(9)">9</button>
+      </div>
+      <div class="linha">
+        <button onclick="teclar(6)">6</button>
+        <button onclick="teclar(5)">5</button>
+        <button onclick="teclar(4)">4</button>
+      </div>
+      <div class="linha">
+        <button onclick="teclar(3)">3</button>
+        <button onclick="teclar(2)">2</button>
+        <button onclick="teclar(1)">1</button>
+      </div>
+      <div class="linha">
+        <button onclick="teclar('.')">.</button>
+        <button onclick="teclar(0)">0</button>
+        <button onclick="teclar('-')">-</button>
+      </div>
+      <div class="linha">
+        <button class="limpar" onclick="limpar()">CLR</button>
+      </div>
+    </div>
+
+    <div class="resultado div-css" id="saida"></div>
+
+    <script src="funcoes.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
