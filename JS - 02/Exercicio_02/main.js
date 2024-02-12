@@ -1,0 +1,1 @@
+var celsius = 15;

@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(58, 56, 56) !important;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.div-css {
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 25px;
+  padding: 15px 55px;
+  margin-top: 40px;
+  width: 70%;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.submit,
+input,
+button {
+  padding: 10px;
+  min-width: 100px;
+  text-align: center;
+}
+
+.div-password {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.div-password input,
+.div-password img {
+  position: relative;
+  left: 25px;
+}
+
+img {
+  height: 30px;
+  width: 40px;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  background-color: lightskyblue;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.especial {
+  background-color: lightseagreen;
+  border: 3px solid lightcoral;
+  color: white;
+}
